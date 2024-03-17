@@ -1,0 +1,25 @@
+.login-links-container {
+    text-align: center;
+  }
+
+  .dashboard-container {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for better readability */
+    text-align: center;
+  }
+  .content-box {
+    border: 3px ridge #ae66ea; /* Border around the content */
+    padding: 10px; /* Padding inside the box */
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Adjust the gap between buttons as needed */
+    margin-top: 20px; /* Optional: Add margin top for spacing */
+  }
+  
+  .button-container button {
+    padding: 10px 20px; /* Adjust button padding as needed */
+  }

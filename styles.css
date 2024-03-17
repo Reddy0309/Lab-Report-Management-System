@@ -1,0 +1,36 @@
+/* styles.css */
+/* Center align the content */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  /* Watermark image as background */
+  .watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    opacity: 0.2;
+  }
+  .password-container {
+    text-align: center;
+  }
+  .password-container label, .password-container input, .password-container button {
+    display: block;
+    margin: 0 auto;
+  }
+  .success-message {
+    color: green;
+    font-weight: bold;
+  }
+  body {
+   background-color: #F8E8EE;
+  }
+  .vision-container {
+    background-color: rgba(245, 141, 229, 0.7); /* Pink color with transparency */
+    padding: 10px; /* Optional: Add padding for better visual appearance */
+    border-radius: '100px';
+  }
